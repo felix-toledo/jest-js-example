@@ -1,0 +1,27 @@
+{
+  "name": "jest-js",
+  "version": "1.0.0",
+  "description": "this is a quick example of how to use jest js with js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felix-toledo/jest-js-example.git"
+  },
+  "keywords": [
+    "jestjs",
+    "js",
+    "javascript"
+  ],
+  "author": "Felix Toledo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felix-toledo/jest-js-example/issues"
+  },
+  "homepage": "https://github.com/felix-toledo/jest-js-example#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
