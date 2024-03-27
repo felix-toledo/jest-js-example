@@ -1,5 +1,7 @@
-const sum = require('./sum');
+const Team = require('./Team.js');
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
+test('When I create a team and make a purchase, the budget should rest', () => {
+     const team = new Team("River", 20);
+     team.purchase(5);
+     expect(team.budget).toBe(15);
 });
